@@ -211,13 +211,13 @@
      <string>MST</string>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="textBrowser">
+   <widget class="QTextEdit" name="textEdit">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>321</y>
-      <width>641</width>
-      <height>231</height>
+      <x>200</x>
+      <y>330</y>
+      <width>371</width>
+      <height>111</height>
      </rect>
     </property>
    </widget>
