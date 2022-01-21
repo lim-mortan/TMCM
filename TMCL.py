@@ -18,7 +18,7 @@ from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
     QTransform)
 from PySide6.QtWidgets import (QApplication, QLabel, QLineEdit, QMainWindow,
     QMenu, QMenuBar, QPushButton, QSizePolicy,
-    QStatusBar, QTextBrowser, QWidget)
+    QStatusBar, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -78,9 +78,9 @@ class Ui_MainWindow(object):
         self.pushButton_5 = QPushButton(self.centralwidget)
         self.pushButton_5.setObjectName(u"pushButton_5")
         self.pushButton_5.setGeometry(QRect(80, 210, 691, 81))
-        self.textBrowser = QTextBrowser(self.centralwidget)
-        self.textBrowser.setObjectName(u"textBrowser")
-        self.textBrowser.setGeometry(QRect(90, 321, 641, 231))
+        self.label_6 = QLabel(self.centralwidget)
+        self.label_6.setObjectName(u"label_6")
+        self.label_6.setGeometry(QRect(130, 320, 511, 121))
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
@@ -111,6 +111,7 @@ class Ui_MainWindow(object):
         self.pushButton_4.setText(QCoreApplication.translate("MainWindow", u"ok", None))
         self.label_5.setText(QCoreApplication.translate("MainWindow", u"MVP", None))
         self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"MST", None))
+        self.label_6.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
         self.menutmcl.setTitle(QCoreApplication.translate("MainWindow", u"tmcl", None))
     # retranslateUi
 
